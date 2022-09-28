@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: Lato, sans-serif;
+	max-width: 1250px;
+	color: #424551;
+}
+
+[class*="__container"] {
+	max-width: 610px;
+	margin: 0 auto;
+}
+
+.main-title {
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 160%;
+	margin-top: 22px;
+	max-width: 615px;
+}
+
+.first-paragraph {
+	margin-left: 0;
+	font-weight: 400;
+	line-height: 160%;
+	margin-top: 20px;
+	max-width: 615px;
+}
+
+.second-title {
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-top: 50px;
+}
+
+
+li {
+	font-weight: 400;
+	line-height: 160%;
+	color: #424551;
+	margin-left: 35px;
+	margin-top: 30px;
+	padding-left: 27px;
+	background: url('../img/done.jpg') 0 6px no-repeat;
+}
+
+[class*="__container2"] {
+	max-width: 610px;
+	margin-right: 10px;
+}
+
+.three-title {
+	font-weight: 700;
+	line-height: 150%;
+	margin-top: 127px;
+	color: #1E212C;
+
+}
+
+.four-title {
+	font-weight: 900;
+	line-height: 130%;
+	color: #1E212C;
+	margin-top: 10px;
+}
+
+.second-paragraph {
+	font-weight: 700;
+	line-height: 150%;
+	color: #787a80;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+p {
+	font-weight: 700;
+	line-height: 160%;
+	margin-left: 30px;
+}
+
+.one-class {
+	background: url('../img/Star.jpg') 0 4px no-repeat;
+	min-height: 15px;
+}
+
+.two-class {
+	background: url('../img/play.jpg') 0 4px no-repeat;
+	min-height: 15px;
+}
+
+.three-class {
+	background: url('../img/Vector\ \(4\).jpg') 0 4px no-repeat;
+	min-height: 15px;
+}
+
+
+.contant {
+	line-height: 160%;
+	margin-top: 15px;
+}
+
+
+
+.karaoke {
+	margin-top: 150px;
+	color: rgba(196, 9, 9, 0.79);
+	font-weight: 700;
+	font-size: 30px;
+
+}
+
+.karaoke:active {
+	max-width: 150px;
+	max-height: 75px;
+	background-color: black;
+	color: aliceblue;
+
+}
+
+.three:active {
+	color: rgb(33, 203, 203);
+	text-decoration: underline;
+	margin-bottom: 20px;
+
+
+}
+
+.two:hover {
+	color: rgb(20, 172, 232);
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+.one:hover {
+	color: rgb(8, 247, 247);
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+.start:active {
+	color: rgb(50, 236, 236);
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+.last-text {
+	line-height: 130%;
+	font-size: 25px;
+	color: aqua;
+}
+
+.text-zero:hover {
+	text-shadow: 5px 5px #1E212C;
+}
+
+.text-two:hover {
+	text-decoration: underline;
+}
+
+.text-three:hover {
+	text-shadow: 2px 5px #0b1d5e;
+
+}
+
+.text-four:hover {
+	outline: 1px solid aquamarine;
+	border-radius: 15px;
+	background-color: #020511;
+
+
+}
+
+.experiment::before {
+	content: "===>";
+	display: inline-block;
+	color: #020511;
+	margin-top: 250px;
+
+}
+
+.experiment::after {
+	content: "<==";
+	display: inline-block;
+	color: #0b1d5e;
+}
